@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopping Cart</title>
+
+<style>
+body{font-family:Arial;background:#f4f4f4;margin:0;padding:20px;}
+.container{max-width:700px;margin:auto;background:#fff;padding:20px;border-radius:10px;}
+h2{text-align:center;color:#0066ff;}
+.item{border-bottom:1px solid #ddd;padding:15px 0;}
+button{
+width:100%;
+padding:12px;
+margin-top:15px;
+background:#0066ff;
+color:#fff;
+border:none;
+border-radius:5px;
+font-size:18px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h2>Shopping Cart</h2>
+
+<div class="item">
+<h3>Product Name</h3>
+<p>Price: ৳1000</p>
+<p>Quantity: 1</p>
+</div>
+
+<div class="item">
+<h3>Total: ৳1000</h3>
+</div>
+
+<button>Checkout</button>
+
+</div>
+
+</body>
+</html>
