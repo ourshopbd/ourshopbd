@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Add Product - Our Shop BD</title>
+
+<style>
+body{
+font-family:Arial,sans-serif;
+background:#f4f4f4;
+margin:0;
+padding:20px;
+}
+.container{
+max-width:500px;
+margin:auto;
+background:#fff;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+h2{
+text-align:center;
+color:#0d6efd;
+}
+input,textarea{
+width:100%;
+padding:12px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:5px;
+box-sizing:border-box;
+}
+button{
+width:100%;
+padding:12px;
+background:#0d6efd;
+color:#fff;
+border:none;
+border-radius:5px;
+font-size:18px;
+cursor:pointer;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+<h2>Add Product</h2>
+
+<input type="text" placeholder="Product Name">
+<input type="text" placeholder="Product Code">
+<input type="number" placeholder="Price (৳)">
+<input type="text" placeholder="Category">
+<input type="text" placeholder="Image URL">
+<textarea placeholder="Product Description"></textarea>
+
+<button>Add Product</button>
+
+</div>
+
+</body>
+</html>
