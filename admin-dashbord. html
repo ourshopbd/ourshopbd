@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Dashboard</title>
+
+<style>
+body{font-family:Arial,sans-serif;background:#f4f4f4;margin:0;}
+header{background:#0066ff;color:white;padding:20px;text-align:center;}
+.container{padding:20px;}
+.card{background:white;padding:20px;margin:15px 0;border-radius:10px;box-shadow:0 0 10px rgba(0,0,0,.1);}
+button{width:100%;padding:12px;background:#0066ff;color:white;border:none;border-radius:5px;font-size:18px;}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>Admin Dashboard</h1>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h3>👥 Manage Users</h3>
+<button>Open</button>
+</div>
+
+<div class="card">
+<h3>🏪 Manage Shops</h3>
+<button>Open</button>
+</div>
+
+<div class="card">
+<h3>📦 Manage Products</h3>
+<button>Open</button>
+</div>
+
+<div class="card">
+<h3>🛒 Manage Orders</h3>
+<button>Open</button>
+</div>
+
+<div class="card">
+<h3>💳 Payments</h3>
+<button>Open</button>
+</div>
+
+</div>
+
+</body>
+</html>
