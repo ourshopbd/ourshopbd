@@ -6,6 +6,35 @@
 <title>Login - Our Shop BD</title>
 
 <style>
+<script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+
+const firebaseConfig = {
+  apiKey: "তোমার_apiKey",
+  authDomain: "তোমার_authDomain",
+  projectId: "তোমার_projectId",
+  storageBucket: "তোমার_storageBucket",
+  messagingSenderId: "তোমার_messagingSenderId",
+  appId: "তোমার_appId"
+};
+
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+
+document.querySelector("button").onclick = async () => {
+  const email = document.querySelector('input[type="email"]').value;
+  const password = document.querySelector('input[type="password"]').value;
+
+  try {
+    await signInWithEmailAndPassword(auth, email, password);
+    alert("Login সফল!");
+    window.location.href = "index.html";
+  } catch (e) {
+    alert(e.message);
+  }
+};
+</script>
 body{
 font-family:Arial,sans-serif;
 background:#f4f4f4;
